@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/kseniya/:path*", "destination": "/:path*" },
+    { "source": "/kseniya", "destination": "/index.html" },
+    { "source": "/_online", "destination": "/_online" }
+  ]
+}
